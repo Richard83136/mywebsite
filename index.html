@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My WebSite</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <header>
+        <h1>MyWebSite</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Accueil</a></li>
+                <li><a href="#etapes">ETAPES</a>
+                <!--SOUS MENU ETAPES---->
+                    <ul>
+                        <li><a href="#etapes">CONCEPTIONS</a></li>
+                        <li><a href="#etapes">Developpement & Test</a></li>
+                        <li><a href="#etapes">Mise en ligne</a></li>
+                    </ul>
+                </li>
+                <li><a href="#services">SERVICES</a>
+                <!--SOUS MENU SERVICES---->
+                    <ul>
+                        <li><a href="#services">CREATION SITE WEB</a></li>
+                        <li><a href="#services">HEBERGEMENT</a></li>
+                    </ul>
+                </li>
+                <li><a href="#contact">CONTACT</a></li>
+            </ul>
+        </nav>
+
+        <div id="all-slider">
+            <ul id="slider">
+                <li class="slide"> <img src="images/slide/images-slide1.jpg" alt="image slider 1"></li>
+                <li class="slide"> <img src="images/slide/images-slide2.jpg" alt="image slider 2"></li>
+                <li class="slide"> <img src="images/slide/images-slide3.jpg" alt="image slider 3"></li>
+                <li class="slide"> <img src="images/slide/images-slide4.jpg" alt="image slider 4"></li>
+                <li class="slide"> <img src="images/slide/images-slide5.jpg" alt="image slider 5"></li>
+            </ul>
+        </div>
+        <div id="titre">
+            <h3>Apprendre à créer un site web  <br>en toute simplicité !</h3>
+            <button type="" name="button" class="btn-services"> <a href="#services">Nos Services</a> </button>
+            <button type="" name="button" class="btn-contact"> <a href="#contact">Contactez-nous</a> </button>
+        </div>
+    </header>
+
+    <section id="container">
+    <!-------------------------------------CONTAINER------------------------------>
+        <section id="etapes">
+            <h4>Etapes !</h4>
+            <div class="etape1">
+                <img src="images/etapes/conception.png" alt="image descriptive de la partie conception">
+                <h4>CONCEPTION</h4>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas commodi maiores quidem aliquam maxime! Iusto harum enim excepturi dolorum aliquam?</p>
+                <button type="button" name="button" class="btn-savoir-plus"><a href="#">En savoir plus</a></button>
+            </div>
+            <div class="etape2">
+                <img src="images/etapes/developpement-test.png" alt="image descriptive de la partie developpement & test">
+                <h4>DEVELOPPEMENT & TEST</h4>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas commodi maiores quidem aliquam maxime! Iusto harum enim excepturi dolorum aliquam?</p>
+                <button type="button" name="button" class="btn-savoir-plus"><a href="#">En savoir plus</a></button>
+            </div>
+            <div class="etape3">
+                <img src="images/etapes/mise-en-ligne.png" alt="image descriptive de la partie mise en ligne">
+                <h4>MISE EN LIGNE</h4>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas commodi maiores quidem aliquam maxime! Iusto harum enim excepturi dolorum aliquam?</p>
+                <button type="button" name="button" class="btn-savoir-plus"><a href="#">En savoir plus</a></button>
+            </div>
+        </section>
+
+        <!----------------services----------------->
+
+        <section id="services">
+                <h4>Nos Services</h4>
+            <div class="services1" style="background-image: url(images/services/creer-un-site-web.jpg);">
+                <div class="infos">
+                    <h4>Creation d'un Site Web</h4>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus nisi delectus veniam sed iste, nemo aliquid adipisci blanditiis reiciendis voluptate.</p>
+                <button type="button" name="button" class="btn-savoir-plus"><a href="#">En savoir plus</a></button>
+                </div>
+            </div>
+            <div class="services2" style="background-image: url(images/services/hebergement.jpg);">
+             <div class="infos">
+                <h4>Hebergement</h4>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus nisi delectus veniam sed iste, nemo aliquid adipisci blanditiis reiciendis voluptate.</p>
+                <button type="button" name="button" class="btn-savoir-plus"><a href="#">En savoir plus</a></button>
+             </div>   
+            </div>
+        </section>
+
+        <!-------------Contact------------->
+        <section id="contact">
+            <h4>Contactez-Nous !</h4>
+            <p>
+                Pour nous contacter, merci de nous laisser un message à partir du formulaire de contact ci-dessous
+            </p>
+
+            <form action="" class="" method="">
+                <label for="">Nom :</label><br>
+                <input type="text" name="" value="" placeholder="Merci de saisir votre Nom, exemple:DUBOIS"><br>
+
+                <label for="">Prénom(s) :</label><br>
+                <input type="text" name="" value="" placeholder="Merci de saisir votre prénom, exemple:Julie"><br>
+
+                <label for="">Tèl :</label><br>
+                <input type="text" name="" value="" placeholder="Merci de saisir votre numéro de téléphone, exemple:07.10...."><br>
+
+                <label for="">Message :</label><br>
+                <textarea name="name" cols="80" rows="3" placeholder="Merci de saisir votre message"></textarea><br>
+
+                <button type="button" name="button" class="btn-envoyer"><a href="#">Envoyer</a></button>
+
+                
+            </form>
+
+        </section>
+
+    </section>
+
+    <footer>
+        <div id="titre-footer">
+            MyWebSite<span class="point">.</span>
+        </div>
+
+        <div id="menu-footer">
+            <span>
+                <a href="#">| ACCUEIL |</a>
+                <a href="#etapes">| ETAPES |</a>
+                <a href="#services">| SERVICES |</a>
+                <a href="#contact">| CONTACT |</a>
+            </span>
+        </div>
+
+        <div id="copyright">
+            &copy; 2021 By Richard Schulze Informatique
+        </div>
+        
+    </footer>
+</body>
+</html>
